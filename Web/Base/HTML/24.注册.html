@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="register.php" method="POST">
+        <fieldset>
+            <legend>人员注册信息</legend>
+            邮箱地址: <input type="text" placeholder="输入邮箱地址">
+            <br>
+            密码: <input type="password" placeholder="输入密码">
+            <br>
+            爱好: <input type="checkbox">足球 <input type="checkbox" checked>代码 <input type="checkbox" checked>看书 <input
+                type="checkbox">熬夜
+            <br>
+            性别: <input type="radio" name="gender" checked>男
+            <input type="radio" name="gender">女
+            <br>
+            籍贯: <select name="jiguan" id="jiguan">
+                <optgroup label="湖南">
+                    <option value="xt">湘潭</option>
+                    <option value="cs" selected>长沙</option>
+                    <option value="zz">株洲</option>
+                </optgroup>
+                <optgroup label="宁乡省">
+                    <option value="yt">玉潭市</option>
+                    <option value="cg">城关市</option>
+                    <option value="xs">新山市</option>
+                </optgroup>
+            </select>
+            <br>
+            介绍自己: <textarea placeholder="从哪来,往哪去?" cols="30" rows="3"></textarea>
+            <br>
+            请选择文件: <input type="file" id="uplode">
+            <br>
+            <input type="image" src="./favicon.ico" width="20">
+            <input type="button" value="普通按钮">
+            <input type="reset" value="重来">
+            <input type="submit" value="注册">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

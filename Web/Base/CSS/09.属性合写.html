@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .div1 {
+            font-size: 30px;
+            font-style: italic;
+            font-weight: 700;
+            font-family: "宋体";
+            line-height: 50px;
+        }
+
+        .div2 {
+            /* 合写 */
+            /* 必须设置font-size和font-family */
+            /* font-size必须在font-amily之前 */
+            /* font-style,font-size,必须在font-size之前 */
+            font: 700 italic 20px/50px "宋体";
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+<div class="div1">分开写</div>
+<div class="div2">合写</div>
+
+
+</html>

@@ -1,0 +1,6 @@
+中文插件
+ms-ceintl.vscode-language-pack-zh-hans
+
+
+从浏览器打开
+techer.open-in-browser

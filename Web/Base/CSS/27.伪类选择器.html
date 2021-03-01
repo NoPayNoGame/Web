@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :link {
+            /* 将链接标签文字设置成红色 */
+            /* 不推荐使用,有兼容性问题 */
+            color: red;
+        }
+
+        div {
+            width: 200px;
+            height: 200px;
+        }
+
+        div:hover {
+            /* 设置<<鼠标进入后>>标签的背景颜色 */
+            /* 最好使用标签指定是,否则页面所有标签都会生效 */
+            background-color: red;
+        }
+
+        a:visited {
+            /* 设置<<点击后>>标签的颜色 */
+            /* 1.只能设置颜色相关属性 */
+            /* 2.有缓存问题 */
+            color: yellow;
+        }
+
+        a:active {
+            /* 设置<<鼠标按住>>标签的颜色 */
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#">超链接</a>
+
+    <div>1</div>
+</body>
+
+</html>
